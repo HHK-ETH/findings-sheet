@@ -16,7 +16,7 @@ Low
 ## Code Snippet
 
 Vault
-```
+```solidity
  /// @inheritdoc IBLVaultLido
     function claimRewards() external override onlyWhileActive onlyOwner nonReentrant {
         // Claim rewards from Aura
@@ -28,7 +28,7 @@ Vault
 ```
 
 AuraRewardPool
-```
+```solidity
 /**
      * @dev Gives a staker their rewards, with the option of claiming extra rewards
      * @param _account     Account for which to claim
@@ -59,8 +59,12 @@ Manual Review
 
 ## Recommendation
 
-Change owner() with address(this)
+Change owner() with address(this) or call getRewards() that uses msg.sender instead.
 
-```
+```solidity
  auraRewardPool().getReward(address(this), true);
+
+// or
+
+ auraRewardPool().getReward();
 ```
