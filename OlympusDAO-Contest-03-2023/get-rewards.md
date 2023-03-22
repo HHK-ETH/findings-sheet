@@ -1,6 +1,6 @@
 ## Summary
 
-auraRewardPool().getReward doesn't use the right parameters.
+In vault, auraRewardPool().getReward doesn't use the right parameters.
 
 ## Vulnerability Detail
 
