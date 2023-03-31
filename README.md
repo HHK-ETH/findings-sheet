@@ -22,7 +22,7 @@
 
 - Check if reetrancy
 - Check if msg.value is used in a loop
-- 
+- Use Call to transfer ETH
 
 ### Oracle
 
