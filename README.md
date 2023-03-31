@@ -16,6 +16,7 @@
 
 - Check precision loss, always multiply before dividing
 - Check overflow/underflow
+- Check uint used in the calcul and convertions (*1 day is uint24*)
 
 ### ETH
 
