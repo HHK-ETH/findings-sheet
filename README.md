@@ -22,3 +22,13 @@
 - Check if reetrancy
 - Check if msg.value is used in a loop
 - 
+
+### Oracle
+
+- Check if oracle heartbeat allow arbitrage/mev
+- Check if oracle can be changed atomically
+- Check that doesn't rely on spot price and uses at least twap or chainlink oracle
+
+### Swap
+
+- Check minOut is valid and doesn't open MEV/arbitrage opportuniy
