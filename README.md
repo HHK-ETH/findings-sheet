@@ -35,6 +35,15 @@
 
 - Check minOut is valid and doesn't open MEV/arbitrage opportuniy
 
+### Init
+
+- Initialized and can't be initiliazed again
+
+### Ownership
+
+- admin functions protected
+- 2 step ownership change
+
 ## Extra links
 
 - https://github.com/immunefi-team/Web3-Security-Library#vulnerabilities
