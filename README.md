@@ -44,6 +44,10 @@
 - admin functions protected
 - 2 step ownership change
 
+### Vault
+
+- Protection against first deposit shares/donation attack (https://twitter.com/naddison/status/1640549868442902528)
+
 ## Extra links
 
 - https://github.com/immunefi-team/Web3-Security-Library#vulnerabilities
