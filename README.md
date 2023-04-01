@@ -21,7 +21,7 @@
 
 ### ETH
 
-- Check if reetrancy (not only modifier but also balances update order, see: https://twitter.com/0xpsuedopandit/status/1637051757573414918)
+- Check if reetrancy (not only modifier but also balances update order and view function result change)
 - Check if msg.value is used in a loop
 - Use Call to transfer ETH
 
