@@ -49,11 +49,13 @@
 ### Vault
 
 - Protection against first deposit shares/donation attack (https://twitter.com/naddison/status/1640549868442902528)
+- Doesn't assume share value being constant
 
 ### External contracts
 
 - Check return value
 - Phantom function that might not revert
+- Doesn't allow arbitrary call or if does make sure to not be msg.sender in these calls
 
 ## Extra links
 
