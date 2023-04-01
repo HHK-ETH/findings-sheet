@@ -21,7 +21,7 @@
 
 ### ETH
 
-- Check if reetrancy
+- Check if reetrancy (not only modifier but also balances update order)
 - Check if msg.value is used in a loop
 - Use Call to transfer ETH
 
