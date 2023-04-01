@@ -31,6 +31,7 @@
 - Check if oracle can be changed atomically
 - Check that doesn't rely on spot price and uses at least twap or chainlink oracle
 - Check if decimal price is correct (100$ could become 100k$)
+- Check if oracle include a vault that can have value per share changed
 
 ### Swap
 
