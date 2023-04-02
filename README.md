@@ -57,6 +57,11 @@
 - Phantom function that might not revert
 - Doesn't allow arbitrary call or if does make sure to not be msg.sender in these calls
 
+### Signature
+
+- Time or nonce limit
+- erecover can return 0 if invalid signature
+
 ## Extra links
 
 - https://github.com/immunefi-team/Web3-Security-Library#vulnerabilities
