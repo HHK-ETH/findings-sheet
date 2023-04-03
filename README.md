@@ -41,6 +41,7 @@
 
 - Initialized and can't be initiliazed again (implementation & proxy)
 - Check variable order and state shadowing (storage collision & function clashing)
+- DelegateCall to selfDestruct/unexpected code
 
 ### Ownership
 
