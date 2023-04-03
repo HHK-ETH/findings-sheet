@@ -48,6 +48,7 @@
 
 - admin functions protected
 - 2 step ownership change
+- Multisig over EOA
 
 ### Vault
 
@@ -64,6 +65,11 @@
 
 - Time or nonce limit
 - erecover can return 0 if invalid signature
+
+### Onchain Governance
+
+- Time between proposed and execution
+- Flashloan attack governance
 
 ## Extra links
 
