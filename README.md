@@ -39,7 +39,7 @@
 
 ### Proxy
 
-- Initialized and can't be initiliazed again
+- Initialized and can't be initiliazed again (implementation & proxy)
 - Check variable order and state shadowing
 
 ### Ownership
