@@ -42,6 +42,7 @@
 - Initialized and can't be initiliazed again (implementation & proxy)
 - Check variable order and state shadowing (storage collision & function clashing)
 - DelegateCall to selfDestruct/unexpected code
+- DelegateCall returns true if target does not exist
 
 ### Ownership
 
