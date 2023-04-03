@@ -37,9 +37,10 @@
 
 - Check minOut is valid and doesn't open MEV/arbitrage opportuniy
 
-### Init
+### Proxy
 
 - Initialized and can't be initiliazed again
+- Check variable order and state shadowing
 
 ### Ownership
 
