@@ -54,6 +54,7 @@
 
 - Protection against first deposit shares/donation attack (https://twitter.com/naddison/status/1640549868442902528)
 - Doesn't assume share value being constant
+- Pull Over Push -> user should be able to withdraw for themself
 
 ### External contracts
 
