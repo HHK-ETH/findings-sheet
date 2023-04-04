@@ -3,7 +3,7 @@
 ### ERC20
 
 - Check if works with fee/rebase token
-- Check if uses safeTransfer (and if token without return true should be compatible)
+- Check if uses safeTransfer (and if token without return true should be compatible, see (https://github.com/zeroknots/brokentoken)
 - Check if token can exist or not before calling function
 - Check if transfer always from msg.sender or could transfer from someone else that approved
 - Check if different token decimals are possible and handled
