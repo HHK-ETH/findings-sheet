@@ -72,6 +72,11 @@
 - Time between proposed and execution
 - Flashloan attack governance
 
+### Dos
+
+- Loop if iterate to many times
+- address.call that check for success on a contract that can consumme more gas than expected
+
 ## Extra links
 
 - https://github.com/immunefi-team/Web3-Security-Library#vulnerabilities
