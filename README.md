@@ -61,6 +61,7 @@
 - Check return value (especially if address.call /!\ as could silently revert or not fully execute)
 - Phantom function that might not revert
 - Doesn't allow arbitrary call or if does make sure to not be msg.sender in these calls
+- Assembly check on calldata/target could be bypassed (see abi-smuggling on damnVulnerableDefi)
 
 ### Signature
 
