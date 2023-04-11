@@ -83,3 +83,4 @@
 
 - https://github.com/immunefi-team/Web3-Security-Library#vulnerabilities
 - https://github.com/OpenCoreCH/smart-contract-auditing-heuristics
+- https://github.com/YAcademy-Residents/CommonWeb3SecurityIssues
