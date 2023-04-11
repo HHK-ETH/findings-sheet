@@ -36,7 +36,7 @@
 ### Swap
 
 - Check minOut is valid and doesn't open MEV/arbitrage opportuniy
-- Check for dust on zap (yacademy)
+- Check for dust on zap (https://blog.alphaventuredao.io/onesideduniswap/)
 
 ### Proxy
 
