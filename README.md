@@ -44,6 +44,7 @@
 - Check variable order and state shadowing (storage collision & function clashing (check signatures))
 - DelegateCall to selfDestruct/unexpected code
 - DelegateCall returns true if target does not exist
+- Many OpenZeppelin upgradeable contracts need to be initialized in the importing contract's constructor.
 
 ### Ownership
 
