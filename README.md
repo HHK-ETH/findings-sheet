@@ -80,6 +80,10 @@
 - Loop if iterate to many times
 - address.call that check for success on a contract that can consumme more gas than expected
 
+### Other
+
+- Can a reorg (happens often on polygon or bnb) result in loss of funds
+
 ## Extra links
 
 - https://github.com/immunefi-team/Web3-Security-Library#vulnerabilities
