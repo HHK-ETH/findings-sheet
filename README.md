@@ -71,6 +71,7 @@
 
 - Time or nonce limit
 - erecover can return 0 if invalid signature
+- An address can create multiple different signatures for the same message (https://github.com/0xbok/ecdsa-vuln-poc/tree/master/ch2_not_unique)
 
 ### Onchain Governance
 
