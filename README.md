@@ -87,6 +87,10 @@
 
 - Can a reorg (happens often on polygon or bnb) result in loss of funds
 
+### ZkEVM
+
+- ZKsync era doesn't support address.transfer
+
 ## Extra links
 
 - https://github.com/immunefi-team/Web3-Security-Library#vulnerabilities
