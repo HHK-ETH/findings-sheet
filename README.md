@@ -86,6 +86,7 @@
 ### Other
 
 - Can a reorg (happens often on polygon or bnb) result in loss of funds
+- If fork of a famous protocol check this list: https://github.com/YAcademy-Residents/defi-fork-bugs
 
 ### ZkEVM
 
