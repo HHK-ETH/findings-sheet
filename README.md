@@ -92,6 +92,10 @@
 
 - ZKsync era doesn't support address.transfer
 
+### Lending
+
+- https://dacian.me/lending-borrowing-defi-attacks
+
 ## Extra links
 
 - https://github.com/immunefi-team/Web3-Security-Library#vulnerabilities
