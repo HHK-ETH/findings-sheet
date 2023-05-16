@@ -82,7 +82,7 @@
 ### Dos
 
 - Loop if iterate too many times
-- address.call that check for success on a contract that can consumme more gas than expected
+- address.call that check for success on a contract that can consume more gas than expected
 
 ### Other
 
