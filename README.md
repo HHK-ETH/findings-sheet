@@ -73,6 +73,7 @@
 - Time or nonce limit
 - erecover can return 0 if invalid signature
 - An address can create multiple different signatures for the same message (https://github.com/0xbok/ecdsa-vuln-poc/tree/master/ch2_not_unique)
+- https://github.com/0xbok/ecdsa-vuln-poc
 
 ### Onchain Governance
 
@@ -89,7 +90,11 @@
 - Can a reorg (happens often on polygon or bnb) result in loss of funds
 - If fork of a famous protocol check this list: https://github.com/YAcademy-Residents/defi-fork-bugs
 
-### ZkEVM
+### Multichain deployment
+
+- Token order might change for Uniswap Lps (token0 & token1) and all other contracts that determine variable order by address
+
+### Chain specific
 
 - ZKsync era doesn't support address.transfer
 
