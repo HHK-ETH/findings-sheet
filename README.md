@@ -40,6 +40,7 @@
 
 - Check minOut is valid and doesn't open MEV/arbitrage opportuniy
 - Check for dust on zap (https://blog.alphaventuredao.io/onesideduniswap/)
+- https://dacian.me/defi-slippage-attacks
 
 ### Proxy
 
