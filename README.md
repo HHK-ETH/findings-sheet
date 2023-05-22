@@ -109,3 +109,4 @@
 - https://github.com/OpenCoreCH/smart-contract-auditing-heuristics
 - https://github.com/YAcademy-Residents/CommonWeb3SecurityIssues
 - https://proxies.yacademy.dev/
+- https://github.com/crytic/not-so-smart-contracts
