@@ -98,6 +98,7 @@
 ### Chain specific
 
 - ZKsync era doesn't support address.transfer
+- https://era.zksync.io/docs/dev/building-on-zksync/contracts/differences-with-ethereum.html#evm-instructions
 
 ### Lending
 
