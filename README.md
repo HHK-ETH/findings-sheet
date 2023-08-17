@@ -10,6 +10,7 @@
 - Can contract end up requiring a 0 amount of ERC20 transfer which would revert for some ERC20
 - safeApprove allows only to approve from zero
 - Main tokens like weth or btc on xdai have a callback
+- erc777 reentrancy
 
 ### ERC721
 
