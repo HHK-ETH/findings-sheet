@@ -44,6 +44,7 @@
 - Check minOut is valid and doesn't open MEV/arbitrage opportuniy
 - Check for dust on zap (https://blog.alphaventuredao.io/onesideduniswap/)
 - https://dacian.me/defi-slippage-attacks
+- block.timestamp as expiry not recommended (ex: https://github.com/code-423n4/2023-08-dopex/blob/main/bot-report.md#m02-using-blocktimestamp-as-the-deadlineexpiry-invites-mev) more of a low/info
 
 ### Proxy
 
