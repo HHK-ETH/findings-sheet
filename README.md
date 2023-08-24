@@ -37,6 +37,7 @@
 - Check if decimal price is correct (100$ could become 100k$)
 - Check if oracle include a vault that can have value per share changed
 - Read-only reentrancy for curve virtual price (on ETH pools)
+- additional checks: https://medium.com/cyfrin/chainlink-oracle-defi-attacks-93b6cb6541bf#99af
 
 ### Swap
 
