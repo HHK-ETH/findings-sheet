@@ -28,6 +28,7 @@
 - Check if reetrancy (not only modifier but also balances update order and view function result change)
 - Check if msg.value is used in a loop
 - Use Call to transfer ETH
+- `msg.value` will be passed on in a `delegateCall`, extra carefull if in a loop (https://matink.me/solidity/2023/10/01/multicall-in-solidity/)
 
 ### Oracle
 
