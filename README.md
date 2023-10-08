@@ -40,8 +40,9 @@
 - Read-only reentrancy for curve virtual price (on ETH pools)
 - additional checks: https://medium.com/cyfrin/chainlink-oracle-defi-attacks-93b6cb6541bf#99af
 
-### Swap
+### AMMs
 
+- Check fees calculation (fees can vary between AMMs and pools)
 - Check minOut is valid and doesn't open MEV/arbitrage opportuniy
 - Check for dust on zap (https://blog.alphaventuredao.io/onesideduniswap/)
 - https://dacian.me/defi-slippage-attacks
