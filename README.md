@@ -97,6 +97,7 @@
 
 - Can a reorg (happens often on polygon or bnb) result in loss of funds
 - If fork of a famous protocol check this list: https://github.com/YAcademy-Residents/defi-fork-bugs
+- Minting amount can depends of external factors that requires it to be treated like a swap (deadline & slippage check)
 
 ### Multichain deployment
 
