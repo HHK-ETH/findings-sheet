@@ -99,7 +99,7 @@
 - Can a reorg (happens often on polygon or bnb) result in loss of funds
 - If fork of a famous protocol check this list: https://github.com/YAcademy-Residents/defi-fork-bugs
 - Minting amount can depends of external factors that requires it to be treated like a swap (deadline & slippage check)
-- FRONTRUNNING may not happen only on swap! anything can potentially be frontrun. Can on submit a TX or change Data right before a different TX and get more out of it ? can someone submit data and then change it by submitting a tx right before the admin tx get accepted making the admin validate invalid data?
+- frontrunning and time sensitive function. anything can potentially be frontrun. Can on submit a TX or change Data right before a different TX and get more out of it ? can someone submit data and then change it by submitting a tx right before the admin tx get accepted making the admin validate invalid data? Can the admin submit a tx believing the contract is in state X but when his transaction get accepted it's in state Y, thus affecting his tx or someone else tx that wasn't supposed to be mined before his.
 
 ### Multichain deployment
 
