@@ -96,7 +96,7 @@
 
 ### Other
 
-- Can a reorg (happens often on polygon or bnb) result in loss of funds
+- Can a reorg (happens often on polygon or bnb) result in loss of funds (invalid on sherlock)
 - If sequencer is down how can it affect the protocol ? (invalid in contests unless chainlink price feeds used)
 - If fork of a famous protocol check this list: https://github.com/YAcademy-Residents/defi-fork-bugs
 - Minting amount can depends of external factors that requires it to be treated like a swap (deadline & slippage check)
