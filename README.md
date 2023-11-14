@@ -11,6 +11,7 @@
 - safeApprove allows only to approve from zero
 - Main tokens like weth or btc on xdai have a callback
 - erc777 reentrancy
+- Weth has a phantom permit (or any other function call wouldn't revert because of the fallback, see: https://media.dedaub.com/phantom-functions-and-the-billion-dollar-no-op-c56f062ae49f)
 
 ### ERC721
 
