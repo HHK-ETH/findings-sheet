@@ -17,6 +17,7 @@
 
 - Check if reetrancy
 - Check if using safeTransfer
+- Check if compatible to receive an NFT
 
 ### Math
 
