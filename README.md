@@ -7,7 +7,7 @@
 - Check if token can exist or not before calling function (especially with solmate safetransfer)
 - Check if transfer always from msg.sender or could transfer from someone else that approved
 - Check if different token decimals are possible and handled
-- Can contract end up requiring a 0 amount of ERC20 transfer which would revert for some ERC20
+- Can contract end up requiring a 0 amount of ERC20 transfer which would revert for some ERC20 (see: https://github.com/d-xo/weird-erc20)
 - safeApprove allows only to approve from zero
 - Main tokens like weth or btc on xdai have a callback
 - erc777 reentrancy
