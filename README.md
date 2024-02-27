@@ -108,6 +108,7 @@
 ### Multichain deployment
 
 - Token order might change for Uniswap Lps (token0 & token1) and all other contracts that determine variable order by address
+- https://github.com/0xJuancito/multichain-auditor
 
 ### Chain specific
 
