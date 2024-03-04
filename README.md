@@ -104,6 +104,7 @@
 - Minting amount can depends of external factors that requires it to be treated like a swap (deadline & slippage check)
 - frontrunning and time sensitive function. anything can potentially be frontrun. Can one submit a TX or change Data right before a different TX and get more out of it ? can someone submit data and then change it by submitting a tx right before the admin tx get accepted making the admin validate invalid data? Can the admin submit a tx believing the contract is in state X but when his transaction get accepted it's in state Y, thus affecting his tx or someone else tx that wasn't supposed to be mined before his.
 - Double check bitmaps, error in indexing can result in med or high vulnerabilites.
+- Similar to above can an array or mapping be altered or broken with invalid entries
 
 ### Multichain deployment
 
