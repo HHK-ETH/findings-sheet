@@ -95,6 +95,7 @@
 - Loop if iterate too many times
 - One elements of the loop fail and makes the whole transaction fail ([Asymmetry safeth](https://github.com/code-423n4/2023-03-asymmetry-findings/issues/703))
 - address.call that check for success on a contract that can consume more gas than expected
+- Gas griefing in general, can one make this function consumes excessive amount of gas ?
 
 ### Other
 
