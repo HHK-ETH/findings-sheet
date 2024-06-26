@@ -77,6 +77,7 @@
 - Phantom function that might not revert
 - Doesn't allow arbitrary call or if does make sure to not be msg.sender in these calls
 - Assembly check on calldata/target could be bypassed (see abi-smuggling on damnVulnerableDefi)
+- Try/catch won't work if the method doesn't exist on the call receiver, the whole call will revert. [More here](https://ethereum.stackexchange.com/questions/129150/solidity-try-catch-call-to-external-non-existent-address-method)
 
 ### Signature
 
